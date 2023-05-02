@@ -1,0 +1,19 @@
+1) docker --version -> To view the Docker Version.
+
+2) docker images –> List all Docker images.
+
+3) docker ps –> Show running containers.
+
+4) docker ps -a –> Show all containers.
+
+5) docker start <container_id> -> To start a stopped container.
+
+6) docker stop <container_id> -> To stop a Container.
+
+7) docker rmi <image> –> Removes Docker image.
+
+8) docker rm <container_id> –> To Removes Container.
+
+9) docker pull –> Pulls an image or a repository from a registry.
+
+10) docker login -> Login to the Docker Hub.

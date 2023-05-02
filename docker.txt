@@ -17,3 +17,5 @@
 9) docker pull –> Pulls an image or a repository from a registry.
 
 10) docker login -> Login to the Docker Hub.
+
+Thank you 

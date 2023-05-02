@@ -1,0 +1,115 @@
+LINUX COMMANDS:
+
+1) ls -l ->  To get all files in long list Format.
+
+2) ls -a ->  To get all Files Including hidden files.
+
+3) ls -la -> To get all Files Including hidden files in long list Format.
+
+4) ls -lt -> To list the files according to their modified date.
+
+5) ls -lh -> To view the size of the file in Human readable Format.
+
+6) rm [file_name]  -> Remove a File.
+
+7) rm -r [directory_name]  -> Removes a directory Recursively.
+
+8) rm -rf [directory_name] -> Removes a directory Recursively without Requiring Confirmation.
+
+9) cp [file_name1] [file_name2] -> Copy the content of the first file to second file.
+
+10) cp -r [directory_name1] [directory_name2] -> Copy the content of the first directory to second directory.
+
+11) du -ah -> Show disk useage of all files and directory.
+
+12) du -sh -> Show disk useage of current directory.
+
+13) hostname -> Show system hostname.
+
+14) hostname -i -> Show the IP Address of the System.
+
+15) uname -a -> Show Kernel Release Information.
+
+16) uname -s -> It prints the kernel name.
+
+17) uname -o -> It prints the name of the operating system.
+
+18) chmod 777 [file_name] -> Give Read,write and Execute Permission to Everyone.
+
+19) ps -> Show a Snapshot of Active Processes.
+
+20) Top -> Show all Running Processes.
+
+21) cal -> It Displays Current Calender Month and Date.
+
+22) ls -F -> It Displays which one is File and which One is directory.
+
+23) ls -d */ -> To list all Directories.
+
+24) head[file_name] -> Displays the first 10 lines.
+
+25) tail[file_name] -> Displays the 1ast 10 lines.
+
+26) touch .[file_name] -> To Create a Hidden file
+
+27) mkdir [directory_name] -> To create a Directory.
+
+28) rmdir [directory_name] -> To Remove a Directory.
+
+29) cat [File_name] -> To view the content of the File.
+
+30) pwd -> Display the Current Working Directory.
+
+31) grep -i "word" file_name -> Case insensitive search.
+
+32) grep -c "word" file_name -> Displaying the count of number of matches.
+
+33) grep -n "word" file_name -> To show the line number of file with the line matched.
+
+
+DOCKER COMMANDS:
+
+
+1) docker --version -> To view the Docker Version.
+
+2) docker images –> List all Docker images.
+
+3) docker ps –> Show running containers.
+
+4) docker ps -a –> Show all containers.
+
+5) docker start <container_id> -> To start a stopped container.
+
+6) docker stop <container_id> -> To stop a Container.
+
+7) docker rmi <image> –> Removes Docker image.
+
+8) docker rm <container_id> –> To Removes Container.
+
+9) docker pull –> Pulls an image or a repository from a registry.
+
+10) docker login -> Login to the Docker Hub.
+
+
+GIT COMMANDS:
+
+
+1) git --version -> Display the Git Version.
+
+2) git clone URL -> pulls down a full copy of all the repository data.
+
+3) git status -> To view the status of the file.
+
+4) git add -> Moves the file from Modified state to staged state.
+
+5) git commit -> File is Commited in Local Repository.
+
+6) git push -> push the Changes into Github repository.
+
+7) git fetch -> Download the updated changes from the remote repository to local repo and it doesn’t automatically merge.
+
+8) git checkout -> Switches to the specific branch.
+
+9) git branch -> It will list all the branches in the repository.
+
+10) git log -> show commit history.
